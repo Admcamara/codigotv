@@ -36,7 +36,7 @@ body {
     height: 7vh;
     max-height: 50px;
 }
-.mural-header h1 {
+.mural-header h2 {
     font-weight: 400;
     letter-spacing: 0.05em;
     flex-grow: 1;
@@ -114,8 +114,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 0.8vw; /* Gap ligeiramente reduzido para dar mais espaço aos cards */
-    flex-wrap: wrap;
+    gap: 0.8vw;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
 }
 
 /* ===== ESTILO DO CARD AJUSTADO PARA TAMANHO MÁXIMO ===== */
@@ -133,10 +133,9 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
     
-    /* ===== AJUSTE FINAL: CARDS MAIORES SEM QUEBRAR A LINHA ===== */
-    width: 9.2vw;      /* Largura aumentada ao máximo possível */
+    width: 9.2vw;
     max-width: 155px;  
-    height: 30vh;      /* Altura aumentada proporcionalmente */
+    height: 30vh;
     max-height: 255px;
     
     transition: transform 0.3s ease;
@@ -148,11 +147,12 @@ body {
 /* Estilo da foto dentro do card */
 .member-photo {
     width: 100%;
-    height: 70%; /* Mais espaço para a foto no card maior */
+    height: 70%;
     object-fit: cover;
     object-position: top center;
     border-radius: 8px;
     margin-bottom: auto;
+    background-color: #ccc; /* Cor de fundo para o caso da imagem falhar */
 }
 
 /* Container para o texto (nome e cargo) */
@@ -168,7 +168,7 @@ body {
 /* Estilo da tipografia (nome) */
 .card h4 {
     font-family: 'Lora', 'Georgia', serif;
-    font-size: 1.6vmin; /* Fonte aumentada para o novo tamanho do card */
+    font-size: 1.6vmin;
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 0.5vmin;
@@ -177,7 +177,7 @@ body {
 /* Estilo da tipografia (cargo) */
 .card p {
     font-family: 'Lora', 'Georgia', serif;
-    font-size: 1.4vmin; /* Fonte aumentada para o novo tamanho do card */
+    font-size: 1.4vmin;
     color: #555;
     font-style: italic;
     font-weight: 400;
@@ -201,4 +201,47 @@ body {
 }
 .legislative-data.active {
     opacity: 1;
+}
+
+/*
+==================================================================
+=== NOVOS ESTILOS PARA LAYOUTS ADAPTÁVEIS DE VEREADORES ===
+==================================================================
+*/
+
+/* Layout para 6 vereadores na fileira de baixo */
+.bottom-cards.vereadores-count-6 {
+    /* O layout flex com wrap e center já lida bem com 6.
+       Mas podemos ajustar o gap se necessário. */
+    gap: 0.6vw;
+}
+
+.bottom-cards.vereadores-count-6 .card.member-card {
+    /* Podemos diminuir um pouco o card para garantir que caibam */
+    width: 7.0vw;
+    max-width: 145px;
+}
+
+
+/* Layout para 7 vereadores na fileira de baixo */
+.bottom-cards.vereadores-count-7 {
+    /* Ajusta o gap para caber mais cards */
+    gap: 0.5vw;
+    /* Garante que os cards permaneçam em uma única linha */
+    flex-wrap: nowrap;
+}
+
+.bottom-cards.vereadores-count-7 .card.member-card {
+    /* Reduz a largura e o tamanho máximo dos cards para caberem 7 em linha */
+    width: 6.3vw;
+    max-width: 130px;
+}
+
+/* Ajusta o tamanho da fonte para os cards menores de 7 vereadores */
+.bottom-cards.vereadores-count-7 .card.member-card h4 {
+    font-size: 1.5vmin;
+}
+
+.bottom-cards.vereadores-count-7 .card.member-card p {
+    font-size: 1.3vmin;
 }
