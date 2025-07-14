@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             legislatura: "Legislatura 2021-2024",
             bienio: "2023-2024",
-            presidente: { nome: "André Francisco Toppan Buganó", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+            presidente: { nome: "André Francisco Toppan Briganó", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "Benedito Geraldo Machado", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Décio Gomes", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Aline Govani Ruiz de Oliveira", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Aline Giovani Ruiz de Oliveira", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
             vereadores: [
                 { nome: "Alexandre dos Santos Soares", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
             presidente: { nome: "Lino Cezar Pereira Rogério", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "Edson José Fermino", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Aline Govani Ruíz de Oliveira", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Aline Giovani Ruiz de Oliveira", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Alexandre dos Santos Soares", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
             vereadores: [
-                { nome: "André Francisco Toppan Buganó", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "André Francisco Toppan Briganó", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Benedito Geraldo Machado", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Décio Gomes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
@@ -47,14 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
             presidente: { nome: "Alexandre dos Santos Soares", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "Benedito Geraldo Machado", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Aline Govani Rizi de Oliveira", cargo: "1ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Aline Giovani Ruiz de Oliveira", cargo: "1ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Aida Abel da Luz", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
             vereadores: [
                 { nome: "Andre Luiz Ferreira da Silva", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "José Donizete Barreto", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "José Renato Correa", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Lino Cezar Pereira Borro", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Lino Cezar Pereira Rogério", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Luis Henrique Garcia", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -65,14 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
             diretoria: [
                 { nome: "José Renato Correa", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Luis Henrique Garcia", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Aline Govani Rizi de Oliveira", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Aline Giovani Ruiz de Oliveira", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
             vereadores: [
                 { nome: "Aida Abel da Luz", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Alexandre dos Santos Soares", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Andre Luiz Ferreira da Silva", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "André Luiz Ferreira da Silva", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "José Donizete Barreto", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Lino Cezar Pereira Borro", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Lino Cezar Pereira Rogério", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
         {
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Valter Lazaro B. de Góes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Marcos Ferreira da Silva", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Mario Sergio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Mário Sergio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Gil Carlos B. dos Anjos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Emerson Raimundo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Gil Carlos Bezerra dos Anjos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Mario Sergio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Mario Sérgio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Valter Lázaro Benedito de Góes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
             vereadores: [
                 { nome: "Mauri Leme Martins", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Mario Sergio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Mario Sérgio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Oséias de Paulo Paes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Antonio de Souza Brito", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
@@ -392,6 +392,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicia o carrossel
     if (previousLegislatives.length > 0) {
         showNextLegislative(); // Mostra o primeiro imediatamente
-        setInterval(showNextLegislative, 7000); // Muda a cada 7 segundos
+        setInterval(showNextLegislative, 10000); // Muda a cada 10 segundos
     }
 });
