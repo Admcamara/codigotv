@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             legislatura: "Legislatura 2021-2024",
             bienio: "2023-2024",
-            presidente: { nome: "André Francisco Toppan Briganó", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+            presidente: { nome: "André F. Toppan Briganó", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "Benedito G. Machado", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Décio Gomes", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Alexandre dos Santos Soares", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
             vereadores: [
-                { nome: "André Francisco Toppan Briganó", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "André F. Toppan Briganó", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Benedito G. Machado", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Décio Gomes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
