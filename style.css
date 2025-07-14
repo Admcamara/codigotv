@@ -1,247 +1,209 @@
-/* Reset Básico e Fontes */
+/* --- Reset e Configurações Globais --- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Lora', 'Georgia', serif;
-    background-color: #eef2f6;
-    color: #333;
-    overflow: hidden; /* Mantém o conteúdo sem barras de rolagem */
-}
-
-/* Container Principal */
-.mural-container {
-    display: flex;
-    flex-direction: column;
+html, body {
     height: 100vh;
-    width: 100vw;
-    background-color: #ffffff;
-    overflow: hidden;
-}
-
-/* ===== CABEÇALHO REDUZIDO E REFINADO ===== */
-.mural-header {
-    background: linear-gradient(to right, #0056b3, #007bff);
-    color: white;
-    padding: 0.5vh 1.5vw;
-    font-size: 2.2vmin;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 40px;
-    height: 7vh;
-    max-height: 50px;
-}
-.mural-header h2 {
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    flex-grow: 1;
-    text-align: center;
-}
-.logo-placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 15vw;
-    min-width: 90px;
-}
-.city-logo {
-    max-height: 35px;
-    width: auto;
-    object-fit: contain;
-}
-.empty-space {
-    width: 15vw;
-    min-width: 90px;
-}
-
-/* Conteúdo do Mural com espaçamentos ajustados */
-.mural-content {
-    display: flex;
-    flex-grow: 1;
-    padding: 1vmin;
-    gap: 1vmin;
-    overflow: hidden;
-}
-.mural-section {
-    background-color: #eef2f6;
-    border-radius: 12px;
-    padding: 1vmin;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     display: flex;
     flex-direction: column;
-    flex: 1;
-    min-width: 0;
     overflow: hidden;
+    color: #333;
 }
 
-/* Títulos com fontes e margens ajustadas */
-.mural-section h2 {
-    text-align: center;
-    color: #0056b3;
-    margin-bottom: 0.5vh;
-    font-size: 2.4vmin;
-    font-weight: 600;
-    flex-shrink: 0;
-}
-.legislative-biennium {
-    text-align: center;
-    color: #555;
-    font-size: 1.8vmin;
-    margin-bottom: 1vh;
-    flex-shrink: 0;
-    font-weight: 400;
-}
-
-/* Layout das Fileiras de Cards com espaçamento reduzido */
-.cards-layout {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    gap: 1.2vh;
-    overflow: hidden;
-    position: relative;
-    padding: 0.5vh 0;
-}
-.top-card {
-    align-self: center;
-}
-.middle-cards, .bottom-cards {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 0.8vw;
-    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
-}
-
-/* ===== ESTILO DO CARD AJUSTADO PARA TAMANHO MÁXIMO ===== */
-.card.member-card {
-    background-color: #ffffff;
-    border: 2px solid #a9d6ff;
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
-    
-    border-radius: 12px;
-    padding: 8px;
-    
-    display: flex;
-    flex-direction: column;
-    
-    flex-grow: 0;
-    flex-shrink: 0;
-    
-    width: 9.2vw;
-    max-width: 155px;  
-    height: 30vh;
-    max-height: 255px;
-    
-    transition: transform 0.3s ease;
-}
-.card.member-card:hover {
-    transform: scale(1.03);
-}
-
-/* Estilo da foto dentro do card */
-.member-photo {
+/* --- Cabeçalho do Site --- */
+.site-header {
     width: 100%;
-    height: 70%;
-    object-fit: cover;
-    object-position: top center;
-    border-radius: 8px;
-    margin-bottom: auto;
-    background-color: #ccc; /* Cor de fundo para o caso da imagem falhar */
+    padding: 10px 20px;
+    background-color: #0d47a1;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Container para o texto (nome e cargo) */
-.member-info {
+.header-placeholder {
+    width: 200px; /* Espaço reservado para o logo e para o lado vazio */
+    flex-shrink: 0;
+}
+
+.logo {
+    max-height: 50px;
+    width: auto;
+    margin-left: 25rem;
+}
+
+.site-header h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+/* --- Container Principal --- */
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* --- Colunas das Legislaturas --- */
+.legislature-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative; /* Necessário para o carrossel */
+    overflow: hidden; /* Garante que a animação não vaze */
+}
+
+.legislature-column h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0d47a1;
+    margin-bottom: 2px;
+}
+
+.legislature-column h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 7px;
+    height: 24px; /* Altura fixa para evitar pulos de layout */
+}
+
+/* --- Níveis da Pirâmide --- */
+.tier {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* --- Card do Vereador (Elemento principal) --- */
+.council-card {
+    width: 145px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease; /* Transição para todas as propriedades */
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.static-card { /* Animação de entrada apenas para a coluna estática */
+     opacity: 0;
+     transform: translateY(20px);
+}
+
+.council-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Imagem Retangular --- */
+.council-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: center top;
+    border: none;
+    transition: height 0.3s ease;
+}
+
+/* --- Informações do Card --- */
+.card-info {
+    padding: 12px 10px;
+    text-align: center;
+    background-color: #fff;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding: 5px 0;
 }
 
-/* Estilo da tipografia (nome) */
-.card h4 {
-    font-family: 'Lora', 'Georgia', serif;
-    font-size: 1.6vmin;
+.council-card .name {
+    font-size: 0.9rem;
     font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 0.5vmin;
+    color: #333;
 }
 
-/* Estilo da tipografia (cargo) */
-.card p {
-    font-family: 'Lora', 'Georgia', serif;
-    font-size: 1.4vmin;
-    color: #555;
-    font-style: italic;
-    font-weight: 400;
+.council-card .role {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #666;
 }
 
-/* Animação para legislativos anteriores */
-.legislative-data {
-    position: absolute;
+/* --- Estilos do Carrossel --- */
+#carousel-container {
     width: 100%;
     height: 100%;
+    position: relative;
+}
+
+.carousel-slide {
+    position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1.2vh;
-    padding: 0.5vh 0;
+    width: 100%;
+    height: 100%;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
-    background-color: #eef2f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.legislative-data.active {
+
+.carousel-slide.active {
     opacity: 1;
 }
 
-/*
-==================================================================
+/* ==================================================================
 === NOVOS ESTILOS PARA LAYOUTS ADAPTÁVEIS DE VEREADORES ===
 ==================================================================
 */
 
-/* Layout para 6 vereadores na fileira de baixo */
-.bottom-cards.vereadores-count-6 {
-    /* O layout flex com wrap e center já lida bem com 6.
-       Mas podemos ajustar o gap se necessário. */
-    gap: 0.6vw;
+/* Para 6 vereadores */
+.tier.vereadores-count-6 .council-card {
+    width: 120px;
+}
+.tier.vereadores-count-6 .council-card img {
+    height: 145px;
 }
 
-.bottom-cards.vereadores-count-6 .card.member-card {
-    /* Podemos diminuir um pouco o card para garantir que caibam */
-    width: 7.0vw;
-    max-width: 145px;
+/* Para 7 vereadores */
+.tier.vereadores-count-7 {
+    gap: 10px; /* Reduz um pouco o espaçamento */
+}
+.tier.vereadores-count-7 .council-card {
+    width: 105px;
+}
+.tier.vereadores-count-7 .council-card img {
+    height: 125px;
+}
+.tier.vereadores-count-7 .council-card .name {
+    font-size: 0.85rem;
+}
+.tier.vereadores-count-7 .council-card .role {
+    font-size: 0.75rem;
 }
 
-
-/* Layout para 7 vereadores na fileira de baixo */
-.bottom-cards.vereadores-count-7 {
-    /* Ajusta o gap para caber mais cards */
-    gap: 0.5vw;
-    /* Garante que os cards permaneçam em uma única linha */
-    flex-wrap: nowrap;
-}
-
-.bottom-cards.vereadores-count-7 .card.member-card {
-    /* Reduz a largura e o tamanho máximo dos cards para caberem 7 em linha */
-    width: 6.3vw;
-    max-width: 130px;
-}
-
-/* Ajusta o tamanho da fonte para os cards menores de 7 vereadores */
-.bottom-cards.vereadores-count-7 .card.member-card h4 {
-    font-size: 1.5vmin;
-}
-
-.bottom-cards.vereadores-count-7 .card.member-card p {
-    font-size: 1.3vmin;
-}

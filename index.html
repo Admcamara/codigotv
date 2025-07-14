@@ -3,107 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Câmara Municipal da Estância Climática de Campos Novos Paulista</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Câmara Municipal - Composição</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="mural-container">
-        <header class="mural-header">
-            <div class="logo-placeholder">
-                <img src="assets/logo.png" alt="Logo da Cidade" class="city-logo">
-            </div>
-            <h2>Câmara Municipal da Estância Climática de Campos Novos Paulista</h2>
-            <div class="empty-space"></div>
-        </header>
 
-        <div class="mural-content">
-            <section class="mural-section current-legislative">
-                <h2>Legislativo Atual</h2>
-                <h3 class="legislative-biennium">Biênio 2025-2028</h3>
-                <div class="cards-layout">
-                    <div class="card top-card member-card">
-                        <img src="assets/Andre.png" alt="Foto do Presidente" class="member-photo">
-                        <div class="member-info">
-                            <h4>André Francisco Toppan Briganó</h4>
-                            <p>Presidente</p>
-                        </div>
-                    </div>
+    <header class="site-header">
+        <div class="header-placeholder">
+            <img src="assets/brasao.png" alt="Logo da Câmara Municipal" class="logo">
+        </div>
+        <h1>Câmara Municipal da Estância Climática de Campos Novos Paulista</h1>
+        <div class="header-placeholder"></div>
+    </header>
 
-                    <div class="middle-cards">
-                        <div class="card middle-card member-card">
-                            <img src="assets/Lino.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Lino Cezar Pereira Rogério</h4>
-                                <p>Vice-Presidente</p>
-                            </div>
-                        </div>
-                        <div class="card middle-card member-card">
-                            <img src="assets/Aline.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Aline Giovani Ruiz de Oliveira</h4>
-                                <p>1º Secretário</p>
-                            </div>
-                        </div>
-                        <div class="card middle-card member-card">
-                            <img src="assets/Edson-Palito.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Edson José Fermino</h4>
-                                <p>2º Secretário</p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="main-container">
+        <!-- Coluna da Esquerda: Legislativo Atual (Estático) -->
+        <section class="legislature-column">
+            <h2>Legislativo Atual</h2>
+            <h3>Biênio 2025-2028</h3>
 
-                    <div class="bottom-cards">
-                         <div class="card bottom-card member-card">
-                            <img src="assets/Angelica.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Angélica Cordeiro Bueno</h4>
-                                <p>Vereadora</p>
-                            </div>
-                        </div>
-                        <div class="card bottom-card member-card">
-                            <img src="assets/Emerson-Juninho.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Emerson Raimundo Filho</h4>
-                                <p>Vereador</p>
-                            </div>
-                        </div>
-                        <div class="card bottom-card member-card">
-                            <img src="assets/Decio.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Décio Gomes</h4>
-                                <p>Vereador</p>
-                            </div>
-                        </div>
-                        <div class="card bottom-card member-card">
-                            <img src="assets/Natalia.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Natália F. C. dos Santos Domingos</h4>
-                                <p>Vereadora</p>
-                            </div>
-                        </div>
-                        <div class="card bottom-card member-card">
-                            <img src="assets/Renato.png" alt="Foto" class="member-photo">
-                            <div class="member-info">
-                                <h4>Renato Moreira Lemes</h4>
-                                <p>Vereador</p>
-                            </div>
-                        </div>
+            <div class="tier">
+                <div class="council-card static-card">
+                    <img src="assets/Andre.png" alt="Foto do Presidente">
+                    <div class="card-info">
+                        <p class="name">André F. T. Briganó</p>
+                        <p class="role">Presidente</p>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <section class="mural-section previous-legislative">
-                <h2>Legislativos Anteriores</h2>
-                <h3 class="legislative-biennium"></h3>
-                <div class="cards-layout" id="previous-legislative-container">
+            <div class="tier">
+                <div class="council-card static-card">
+                    <img src="assets/Lino.png" alt="Foto do Vice-Presidente">
+                    <div class="card-info">
+                        <p class="name">Lino Cezar P. Rogério</p>
+                        <p class="role">Vice-Presidente</p>
                     </div>
-            </section>
-        </div>
+                </div>
+                <div class="council-card static-card">
+                    <img src="assets/Aline.png" alt="Foto do 1º Secretário">
+                    <div class="card-info">
+                        <p class="name">Aline G. R. de Oliveira</p>
+                        <p class="role">1º Secretário</p>
+                    </div>
+                </div>
+                <div class="council-card static-card">
+                    <img src="assets/Edson-Palito.png" alt="Foto do 2º Secretário">
+                    <div class="card-info">
+                        <p class="name">Edson José Fermino</p>
+                        <p class="role">2º Secretário</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tier">
+                <div class="council-card static-card">
+                    <img src="assets/Angelica.png" alt="Foto do Vereador">
+                    <div class="card-info">
+                        <p class="name">Angélica C. Bueno</p>
+                        <p class="role">Vereadora</p>
+                    </div>
+                </div>
+                <div class="council-card static-card">
+                    <img src="assets/Emerson-Juninho.png" alt="Foto do Vereador">
+                    <div class="card-info">
+                        <p class="name">Emerson Raimundo Fº</p>
+                        <p class="role">Vereador</p>
+                    </div>
+                </div>
+                <div class="council-card static-card">
+                    <img src="assets/Decio.png" alt="Foto do Vereador">
+                    <div class="card-info">
+                        <p class="name">Décio Gomes</p>
+                        <p class="role">Vereador</p>
+                    </div>
+                </div>
+                 <div class="council-card static-card">
+                    <img src="assets/Natalia.png" alt="Foto do Vereador">
+                     <div class="card-info">
+                        <p class="name">Natália F. C. Domingos</p>
+                        <p class="role">Vereadora</p>
+                    </div>
+                </div>
+                 <div class="council-card static-card">
+                    <img src="assets/Renato.png" alt="Foto do Vereador">
+                     <div class="card-info">
+                        <p class="name">Renato Moreira Lemes</p>
+                        <p class="role">Vereador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coluna da Direita: Legislativos Anteriores (Dinâmico com Carrossel) -->
+        <section class="legislature-column">
+            <h2 id="carousel-title">Legislativos Anteriores</h2>
+            <h3 id="carousel-biennium"></h3>
+            <div id="carousel-container">
+                <!-- O conteúdo do carrossel será inserido aqui pelo JavaScript -->
+            </div>
+        </section>
     </div>
+
     <script src="script.js"></script>
+
 </body>
 </html>
