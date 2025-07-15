@@ -290,8 +290,8 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            legislatura: "Lei Orgânica Municipal",
-            bienio: "Promulgação - 1990",
+            legislatura: "Legislatura 1989-1992",
+            bienio: "1991-1992",
             presidente: { nome: "Álvaro Mendes de Campos", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "Bento dos Santos", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
