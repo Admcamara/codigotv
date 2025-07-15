@@ -81,7 +81,7 @@ html, body {
 
 .legislature-column h3 {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #0e0e0e;
     margin-bottom: 7px;
     height: 24px; /* Altura fixa para evitar pulos de layout */
