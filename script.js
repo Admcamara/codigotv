@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Aline Giovani Ruiz de Oliveira", cargo: "2ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
             vereadores: [
-                { nome: "Alexandre dos Santos Soares", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Lourenço José Raimundo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Edson José Fermino", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Lino Cezar Pereira Rogério", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Benedito G. Machado", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Décio Gomes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Paulo Cesar do Nascimento", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Renato Moreira Lemes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
         {
