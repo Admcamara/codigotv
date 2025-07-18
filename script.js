@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "José Donizete Barreto", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "José Renato Correa", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Lino Cezar Pereira Rogério", cargo: "Vereador", foto: "../assets/Lino.png" },
-                { nome: "Luis Henrique Garcia", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Luis Henrique Garcia", cargo: "Vereador", foto: "../assets/anteriores/LuisHenriqueGarcia.jpeg" }
             ]
         },
         {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             presidente: { nome: "Benedito G. Machado", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "José Renato Correa", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Luis Henrique Garcia", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Luis Henrique Garcia", cargo: "1º Secretário", foto: "../assets/anteriores/LuisHenriqueGarcia.jpeg" },
                 { nome: "Aline Giovani Ruiz de Oliveira", cargo: "2ª Secretária", foto: "../assets/Aline.png" }
             ],
             vereadores: [
@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Aparecido Balbino Osório", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "../assets/anteriores/JairoSouza.jpeg" },
                 { nome: "Laudelino Nogueira dos Santos Fº", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Renato Barrinuevo da Silva", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Renato Barrinuevo da Silva", cargo: "Vereador", foto: "../assets/anteriores/RenatoBarrinuevo.jpeg" },
                 { nome: "Samuel Sabino Bezerra", cargo: "Vereador", foto: "../assets/anteriores/SamuelSabinoBezerra.jpeg" },
                 { nome: "Yoshio Munefiça", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
