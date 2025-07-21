@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Aline Giovani Ruiz de Oliveira", cargo: "2ª Secretária", foto: "../assets/Aline.png" }
             ],
             vereadores: [
-                { nome: "Lourenço José Raimundo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Lourenço José Raimundo", cargo: "Vereador", foto: "../assets/anteriores/LourencoRaimundo.jpeg" },
                 { nome: "Edson José Fermino", cargo: "Vereador", foto: "../assets/Edson-Palito.png" },
                 { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Lino Cezar Pereira Rogério", cargo: "Vereador", foto: "../assets/Lino.png" },
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
             vereadores: [
                 { nome: "Luiz Miguel Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Laudelino de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "../assets/anteriores/MarcoGoffredo.jpeg" },
                 { nome: "Genuíno Euflauzino", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
@@ -284,8 +284,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Josias de Maio Carneiro", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Laudelino de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Genuino Euflauzino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
-                { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Bento dos Santos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "../assets/anteriores/MarcoGoffredo.jpeg" },
+                { nome: "Bento dos Santos", cargo: "Vereador", foto: "../assets/anteriores/BentoSantos.jpeg" },
                 { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
             bienio: "1991-1992",
             presidente: { nome: "Álvaro Mendes de Campos", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
-                { nome: "Bento dos Santos", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Bento dos Santos", cargo: "Vice-Presidente", foto: "../assets/anteriores/BentoSantos.jpeg" },
                 { nome: "José Carlos de Alcântara", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Aurélio Marvulle Filho", cargo: "2º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ],
