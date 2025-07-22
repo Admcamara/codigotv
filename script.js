@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Luiz Miguel Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "João Batista Correia", cargo: "Vereador", foto: "../assets/anteriores/JoaoBatistaCorreia.jpeg" },
                 { nome: "Genuino Euflauzino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
-                { nome: "Santana Jandra Ferreira", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Santana Jandra Ferreira", cargo: "Vereador", foto: "../assets/anteriores/SantanaJandra.jpeg" },
                 { nome: "Francisco Domingos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
             presidente: { nome: "Francisco Domingos", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
             diretoria: [
                 { nome: "João Batista Correa", cargo: "Vice-Presidente", foto: "../assets/anteriores/JoaoBatistaCorreia.jpeg" },
-                { nome: "Santana Jandra Ferreira", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Santana Jandra Ferreira", cargo: "1º Secretário", foto: "../assets/anteriores/SantanaJandra.jpeg" },
                 { nome: "Genuino Euflauzino", cargo: "2º Secretário", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" }
             ],
             vereadores: [
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             vereadores: [
                 { nome: "Alcides Martins Inigo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Aparecido Balbino Osório", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Aparecido Balbino Osório", cargo: "Vereador", foto: "../assets/anteriores/AparecidoBalbino.jpeg" },
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "../assets/anteriores/JairoSouza.jpeg" },
                 { nome: "Laudelino Nogueira dos Santos Fº", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Renato Barrinuevo da Silva", cargo: "Vereador", foto: "../assets/anteriores/RenatoBarrinuevo.jpeg" },
