@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Genuino Euflazino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
                 { nome: "Marcos F. da Silva", cargo: "Vereador", foto: "../assets/anteriores/MarcosFSilva.jpeg" },
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "../assets/anteriores/JairoSouza.jpeg" },
-                { nome: "Mário Sérgio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Mário Sérgio Antonio", cargo: "Vereador", foto: "../assets/anteriores/MarioSergioAntonio.jpeg" },
                 { nome: "Valter L. B. de Góes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -234,13 +234,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "João Batista Correia", cargo: "Vereador", foto: "../assets/anteriores/JoaoBatistaCorreia.jpeg" },
                 { nome: "Genuino Euflauzino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
                 { nome: "Santana Jandra Ferreira", cargo: "Vereador", foto: "../assets/anteriores/SantanaJandra.jpeg" },
-                { nome: "Francisco Domingos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Francisco Domingos", cargo: "Vereador", foto: "../assets/anteriores/FranciscoDomingos.png" }
             ]
         },
         {
             legislatura: "Legislatura 1997-2000",
             bienio: "1997-1998",
-            presidente: { nome: "Francisco Domingos", cargo: "Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+            presidente: { nome: "Francisco Domingos", cargo: "Presidente", foto: "../assets/anteriores/FranciscoDomingos.png" },
             diretoria: [
                 { nome: "João Batista Correa", cargo: "Vice-Presidente", foto: "../assets/anteriores/JoaoBatistaCorreia.jpeg" },
                 { nome: "Santana Jandra Ferreira", cargo: "1º Secretário", foto: "../assets/anteriores/SantanaJandra.jpeg" },
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
             diretoria: [
                 { nome: "Bento dos Santos", cargo: "Vice-Presidente", foto: "../assets/anteriores/BentoSantos.jpeg" },
                 { nome: "José Carlos de Alcântara", cargo: "1º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Aurélio Marvulle Filho", cargo: "2º Secretário", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Aurélio Marvulle Filho", cargo: "2º Secretário", foto: "../assets/anteriores/AurelioMarvulle.jpeg" }
             ],
             vereadores: [
                 { nome: "Alcides Martins Inigo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
