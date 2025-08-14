@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Laudelino de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "../assets/anteriores/MarcoGoffredo.jpeg" },
                 { nome: "Genuíno Euflauzino", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "../assets/anteriores/TerezinhaSouza.jpeg" }
             ]
         },
         {
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Genuino Euflauzino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
                 { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "../assets/anteriores/MarcoGoffredo.jpeg" },
                 { nome: "Bento dos Santos", cargo: "Vereador", foto: "../assets/anteriores/BentoSantos.jpeg" },
-                { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
+                { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "../assets/anteriores/TerezinhaSouza.jpeg" }
             ]
         },
         {
