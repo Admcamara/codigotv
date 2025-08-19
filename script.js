@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "../assets/anteriores/JairoSouza.jpeg" },
                 { nome: "Valter L. B. de Góes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Marcos F. da Silva", cargo: "Vereador", foto: "../assets/anteriores/MarcosFSilva.jpeg" },
-                { nome: "Mário Sergio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Mário Sergio Antonio", cargo: "Vereador", foto: "../assets/anteriores/MarioSergioAntonio.jpeg" },
                 { nome: "Gil C. B. dos Anjos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
