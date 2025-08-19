@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "../assets/anteriores/JairoSouza.jpeg" },
                 { nome: "Valter L. B. de Góes", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Marcos F. da Silva", cargo: "Vereador", foto: "../assets/anteriores/MarcosFSilva.jpeg" },
-                { nome: "Mário Sergio Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Mário Sergio Antonio", cargo: "Vereador", foto: "../assets/anteriores/MarioSergioAntonio.jpeg" },
                 { nome: "Gil C. B. dos Anjos", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }
             ]
         },
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Antonio de Souza Brito", cargo: "Vereador", foto: "../assets/anteriores/AntonioSouzaBrito.jpeg" },
                 { nome: "Emerson Raimundo", cargo: "Vereador", foto: "../assets/anteriores/EmersonRaimundo.jpeg" },
                 { nome: "Genuino Euflauzino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
-                { nome: "Luzia L. Frabetti de Souza", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Luzia L. Frabetti de Souza", cargo: "Vereadora", foto: "../assets/anteriores/LuziaFrabettiSouza.jpeg" },
                 { nome: "Mario Sergio Antonio", cargo: "Vereador", foto: "../assets/anteriores/MarioSergioAntonio.jpeg" },
                 { nome: "Oseas de Paulo Paes", cargo: "Vereador", foto: "../assets/anteriores/OseiasPaes.jpeg" }
             ]
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
             presidente: { nome: "Oséias de Paulo Paes", cargo: "Presidente", foto: "../assets/anteriores/OseiasPaes.jpeg" },
             diretoria: [
                 { nome: "Gil C. B. dos Anjos", cargo: "Vice-Presidente", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Luzia L. Frabetti de Souza", cargo: "1ª Secretária", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Luzia L. Frabetti de Souza", cargo: "1ª Secretária", foto: "../assets/anteriores/LuziaFrabettiSouza.jpeg" },
                 { nome: "Antonio de Souza Brito", cargo: "2º Secretário", foto: "../assets/anteriores/AntonioSouzaBrito.jpeg" }
             ],
             vereadores: [
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             vereadores: [
                 { nome: "Luiz Miguel Antonio", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Laudelino de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Laudelino de Souza", cargo: "Vereador", foto: "../assets/anteriores/LaudelinoSouza.jpeg" },
                 { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "../assets/anteriores/MarcoGoffredo.jpeg" },
                 { nome: "Genuíno Euflauzino", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Terezinha M. da S. de Souza", cargo: "Vereadora", foto: "../assets/anteriores/TerezinhaSouza.jpeg" }
@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             vereadores: [
                 { nome: "Josias de Maio Carneiro", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
-                { nome: "Laudelino de Souza", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Laudelino de Souza", cargo: "Vereador", foto: "../assets/anteriores/LaudelinoSouza.jpeg" },
                 { nome: "Genuino Euflauzino", cargo: "Vereador", foto: "../assets/anteriores/GenuinoEuflauzino.jpeg" },
                 { nome: "Marco Antonio Goffredo", cargo: "Vereador", foto: "../assets/anteriores/MarcoGoffredo.jpeg" },
                 { nome: "Bento dos Santos", cargo: "Vereador", foto: "../assets/anteriores/BentoSantos.jpeg" },
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "Alcides Martins Inigo", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
                 { nome: "Aparecido Balbino Osório", cargo: "Vereador", foto: "../assets/anteriores/AparecidoBalbino.jpeg" },
                 { nome: "Jairo de Souza", cargo: "Vereador", foto: "../assets/anteriores/JairoSouza.jpeg" },
-                { nome: "Laudelino Nogueira dos Santos Fº", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Laudelino Nogueira dos Santos Fº", cargo: "Vereador", foto: "../assets/anteriores/LaudelinoSouza.jpeg" },
                 { nome: "Renato Barrinuevo da Silva", cargo: "Vereador", foto: "../assets/anteriores/RenatoBarrinuevo.jpeg" },
                 { nome: "Samuel Sabino Bezerra", cargo: "Vereador", foto: "../assets/anteriores/SamuelSabinoBezerra.jpeg" },
                 { nome: "Yoshio Munefiça", cargo: "Vereador", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" }

@@ -29,7 +29,7 @@ html, body {
 }
 
 .header-placeholder {
-    width: 200px; /* Espaço reservado para o logo e para o lado vazio */
+    width: 200px;
     flex-shrink: 0;
 }
 
@@ -47,7 +47,7 @@ html, body {
     margin: 0 20px;
 }
 
-/* --- Container Principal --- */
+/* Container Principal */
 .main-container {
     display: flex;
     width: 100%;
@@ -56,7 +56,7 @@ html, body {
     gap: 20px;
 }
 
-/* --- Colunas das Legislaturas --- */
+/* Colunas das Legislaturas */
 .legislature-column {
     flex: 1;
     display: flex;
@@ -68,8 +68,8 @@ html, body {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    position: relative; /* Necessário para o carrossel */
-    overflow: hidden; /* Garante que a animação não vaze */
+    position: relative;
+    overflow: hidden;
 }
 
 .legislature-column h2 {
@@ -84,10 +84,10 @@ html, body {
     font-weight: 600;
     color: #0e0e0e;
     margin-bottom: 28px;
-    height: 24px; /* Altura fixa para evitar pulos de layout */
+    height: 24px;
 }
 
-/* --- Níveis da Pirâmide --- */
+/* Níveis da Pirâmide */
 .tier {
     display: flex;
     justify-content: center;
@@ -97,20 +97,20 @@ html, body {
     margin-bottom: 15px;
 }
 
-/* --- Card do Vereador (Elemento principal) --- */
+/* Card do Vereador */
 .council-card {
     width: 145px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease; /* Transição para todas as propriedades */
+    transition: all 0.3s ease;
     cursor: pointer;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
-.static-card { /* Animação de entrada apenas para a coluna estática */
+.static-card { 
      opacity: 0;
      transform: translateY(20px);
 }
@@ -120,7 +120,6 @@ html, body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* --- Imagem Retangular --- */
 .council-card img {
     width: 100%;
     height: 160px;
@@ -130,7 +129,7 @@ html, body {
     transition: height 0.3s ease;
 }
 
-/* --- Informações do Card --- */
+/* Informações do Card */
 .card-info {
     padding: 12px 10px;
     text-align: center;
@@ -153,7 +152,7 @@ html, body {
     color: #666;
 }
 
-/* --- Estilos do Carrossel --- */
+/* Estilos do Carrossel */
 #carousel-container {
     width: 100%;
     height: 100%;
@@ -177,11 +176,6 @@ html, body {
     opacity: 1;
 }
 
-/* ==================================================================
-=== NOVOS ESTILOS PARA LAYOUTS ADAPTÁVEIS DE VEREADORES ===
-==================================================================
-*/
-
 /* Para 6 vereadores */
 .tier.vereadores-count-6 .council-card {
     width: 120px;
@@ -192,7 +186,7 @@ html, body {
 
 /* Para 7 vereadores */
 .tier.vereadores-count-7 {
-    gap: 10px; /* Reduz um pouco o espaçamento */
+    gap: 10px;
 }
 .tier.vereadores-count-7 .council-card {
     width: 105px;
