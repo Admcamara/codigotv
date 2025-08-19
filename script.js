@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // --- Animação para a coluna estática ---
     const staticCards = document.querySelectorAll('.static-card');
     staticCards.forEach((card, index) => {
         setTimeout(() => {
@@ -8,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100 + (index * 50));
     });
 
-    // --- Lógica do Carrossel para a coluna dinâmica ---
     const carouselContainer = document.getElementById('carousel-container');
     const carouselTitle = document.getElementById('carousel-title');
     const carouselBiennium = document.getElementById('carousel-biennium');
@@ -26,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             vereadores: [
                 { nome: "Lourenço José Raimundo", cargo: "Vereador", foto: "../assets/anteriores/LourencoRaimundo.jpeg" },
                 { nome: "Edson José Fermino", cargo: "Vereador", foto: "../assets/Edson-Palito.png" },
-                { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "../assets/anteriores/ElianaRaquelSilvaAntonio.jpeg" },
                 { nome: "Lino Cezar Pereira Rogério", cargo: "Vereador", foto: "../assets/Lino.png" },
                 { nome: "Renato Moreira Lemes", cargo: "Vereador", foto: "../assets/Renato.png" }
             ]
@@ -44,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { nome: "André F. Toppan Briganó", cargo: "Vereador", foto: "./assets/Andre.png" },
                 { nome: "Benedito G. Machado", cargo: "Vereador", foto: "../assets/anteriores/BeneditoGMachado.jpeg" },
                 { nome: "Décio Gomes", cargo: "Vereador", foto: "../assets/Decio.png" },
-                { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "https://placehold.co/150x200/eef2f6/333?text=Foto" },
+                { nome: "Eliana Raquel Silva Antônio", cargo: "Vereadora", foto: "../assets/anteriores/ElianaRaquelSilvaAntonio.jpeg" },
                 { nome: "Renato Moreira Lemes", cargo: "Vereador", foto: "../assets/Renato.png" }
             ]
         },
@@ -328,7 +326,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const presidenteHTML = createMemberCardHTML(data.presidente);
         const diretoriaHTML = data.diretoria.map(createMemberCardHTML).join('');
         
-        // Lógica para adicionar classe CSS baseada na contagem de vereadores
         const vereadoresCount = data.vereadores.length;
         const vereadoresTierClass = `tier ${vereadoresCount > 5 ? 'vereadores-count-' + vereadoresCount : ''}`;
         const vereadoresHTML = data.vereadores.map(createMemberCardHTML).join('');
@@ -351,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (currentActive.parentElement) {
                     currentActive.remove();
                 }
-            }, 800); // Remove o elemento após a transição de fade-out
+            }, 800);
         }
 
         const nextData = previousLegislatives[currentIndex];
@@ -372,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (previousLegislatives.length > 0) {
-        showNextLegislative(); // Mostra o primeiro slide
-        setInterval(showNextLegislative, 10000); // Muda a cada 10 segundos
+        showNextLegislative();
+        setInterval(showNextLegislative, 10000);
     }
 });
